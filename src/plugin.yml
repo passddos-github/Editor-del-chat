@@ -1,0 +1,14 @@
+name: GameChat
+version: 0.0.5
+author: passddos
+main: 
+api-version: '1.13'
+commands:
+  chat:
+    usage: /chat
+  msg:
+    usage: /msg
+    aliases: [m, pm, tell]
+  reply:
+    usage: /reply
+    aliases: [r]
